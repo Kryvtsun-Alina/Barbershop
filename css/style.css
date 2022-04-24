@@ -1,0 +1,110 @@
+body {
+  color: rgba(157, 164, 189, 1);
+  background-color: (255, 255, 255, 1);
+}
+/*цвет темного фона rgba(17, 19, 25, 1);*/
+/*цвет заголовков на темном фоне: rgba(255, 255, 255, 1);*/
+/*цвет первых текстов на темном фоне rgba(157, 164, 189, 0.6);*/
+/*цвет текстов на темном фоне rgba(157, 164, 189, 1);*/
+/*цвет заголовков на светлом фоне rgba(48, 48, 48, 1);*/
+/*цвет текста на светлом фоне rgba(85, 85, 85, 1);*/
+/*цвет акцента rgba(255, 108, 0, 1);*/
+:root {
+  --background-dark--: rgba(17, 19, 25, 0.5);
+  --primary-title-color--: rgba(255, 255, 255, 1);
+  --primary-text-color--: rgba(157, 164, 189, 0.6);
+  --secondary-text-color--: rgba(157, 164, 189, 1);
+  --secondary-title-color--: rgba(48, 48, 48, 1);
+  --third-text-color--: rgba(85, 85, 85, 1);
+  --accent-color--: rgba(255, 108, 0, 1);
+}
+/*header*/
+.header {
+  background-color: var(--background-dark--);
+}
+.site-nav-list {
+  color: var(--primary-title-color--);
+}
+.header-connect {
+  color: var(--primary-title-color--);
+}
+/*social linc*/
+.social-link-list {
+  color: var(--secondary-text-color--);
+}
+/*hero*/
+.hero {
+  background-color: var(--background-dark--);
+}
+.hero-subtitle {
+  color: var(--primary-text-color--);
+}
+.hero-title {
+  color: var(--primary-title-color--);
+}
+/*about us*/
+.about-subtitle {
+  color: var(--secondary-title-color--);
+}
+.about-title {
+  color: var(--secondary-title-color--);
+}
+.about-text {
+  color: var(--third-text-color--);
+}
+/*prices*/
+
+.prices {
+  background-color: var(--background-dark--);
+}
+.prices-subtitle {
+  color: var(--primary-text-color--);
+}
+.prices-title {
+  color: var(--primary-title-color--);
+}
+/*features*/
+.features-item {
+  color: var(--secondary-title-color--);
+}
+.features-subtitle {
+  color: var(--secondary-title-color--);
+}
+.features-title {
+  color: var(--secondary-title-color--);
+}
+.features-text {
+  color: var(--third-text-color--);
+}
+/*masters*/
+.masters-subtitle {
+  color: var(--secondary-title-color--);
+}
+.masters-title {
+  color: var(--secondary-title-color--);
+}
+.masters-item-title {
+  color: var(--secondary-title-color--);
+}
+.masters-item-text {
+  color: var(--accent-color--);
+}
+.portfolio-subtitle {
+  color: var(--secondary-title-color--);
+}
+/*contacts*/
+.contacts {
+  background-color: var(--background-dark--);
+}
+.contacts-title,
+.online-record-title,
+.time-work-title {
+  color: var(--primary-title-color--);
+}
+.address-link {
+  color: var(--secondary-text-color--);
+}
+/*footer*/
+.footer-social-item {
+  color: var(--secondary-title-color--);
+}
