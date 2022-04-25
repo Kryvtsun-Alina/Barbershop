@@ -1,6 +1,7 @@
 body {
   color: rgba(157, 164, 189, 1);
   background-color: (255, 255, 255, 1);
+  font-family: "Open Sans", Tahoma, sans-serif;
 }
 /*цвет темного фона rgba(17, 19, 25, 1);*/
 /*цвет заголовков на темном фоне: rgba(255, 255, 255, 1);*/
@@ -18,19 +19,85 @@ body {
   --third-text-color--: rgba(85, 85, 85, 1);
   --accent-color--: rgba(255, 108, 0, 1);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol,
+p {
+  padding-left: 0;
+  margin: 0;
+}
+img {
+  display: block;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+}
+.title-dark {
+  font-family: "Raleway";
+  color: var(--secondary-title-color--);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
 /*header*/
 .header {
   background-color: var(--background-dark--);
 }
-.site-nav-list {
+
+.site-nav-text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+
   color: var(--primary-title-color--);
 }
-.header-connect {
+.header-tel {
   color: var(--primary-title-color--);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+.button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--primary-title-color--);
+  border: 1px solid #ff6c00;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background-color: var(--background-dark--);
 }
 /*social linc*/
 .social-link-list {
   color: var(--secondary-text-color--);
+}
+.social-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
 }
 /*hero*/
 .hero {
@@ -40,7 +107,17 @@ body {
   color: var(--primary-text-color--);
 }
 .hero-title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
   color: var(--primary-title-color--);
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
 }
 /*about us*/
 .about-subtitle {
@@ -51,6 +128,14 @@ body {
 }
 .about-text {
   color: var(--third-text-color--);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+.about-button {
+  color: var(--secondary-title-color--);
+  background-color: var(--primary-title-color--);
 }
 /*prices*/
 
@@ -61,11 +146,34 @@ body {
   color: var(--primary-text-color--);
 }
 .prices-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
   color: var(--primary-title-color--);
+}
+.prices-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
 }
 /*features*/
 .features-item {
   color: var(--secondary-title-color--);
+}
+.features-item-count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+.features-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
 }
 .features-subtitle {
   color: var(--secondary-title-color--);
@@ -85,10 +193,20 @@ body {
 }
 .masters-item-title {
   color: var(--secondary-title-color--);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.02em;
 }
 .masters-item-text {
   color: var(--accent-color--);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.02em;
 }
+/*portfolio*/
+
 .portfolio-subtitle {
   color: var(--secondary-title-color--);
 }
@@ -97,14 +215,48 @@ body {
   background-color: var(--background-dark--);
 }
 .contacts-title,
-.online-record-title,
-.time-work-title {
+.online-record-title {
   color: var(--primary-title-color--);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
 }
+.time-work-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.37;
+  letter-spacing: 0.1em;
+}
+
 .address-link {
   color: var(--secondary-text-color--);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+.time-work-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
 }
 /*footer*/
 .footer-social-item {
   color: var(--secondary-title-color--);
+}
+.footer-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.37;
+  letter-spacing: 0.2em;
+}
+.footer-social-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.37;
+  letter-spacing: 0.2em;
 }
