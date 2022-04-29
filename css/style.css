@@ -1,4 +1,5 @@
 body {
+  box-sizing: border-box;
   color: rgba(157, 164, 189, 1);
   background-color: (255, 255, 255, 1);
   font-family: "Open Sans", Tahoma, sans-serif;
@@ -36,6 +37,12 @@ p {
 img {
   display: block;
 }
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
 .list {
   list-style: none;
 }
@@ -59,8 +66,14 @@ img {
 /*header*/
 .header {
   background-color: var(--background-dark--);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
-
+.header-logo {
+  margin-right: 70px;
+}
+.site-nav-list {
+}
 .site-nav-text {
   font-weight: 600;
   font-size: 12px;
@@ -102,6 +115,7 @@ img {
 /*hero*/
 .hero {
   background-color: var(--background-dark--);
+  padding: 272px 0 206px 96px;
 }
 .hero-subtitle {
   color: var(--primary-text-color--);
@@ -120,6 +134,10 @@ img {
   letter-spacing: 0.02em;
 }
 /*about us*/
+.about {
+  padding-top: 139px;
+  padding-bottom: 90px;
+}
 .about-subtitle {
   color: var(--secondary-title-color--);
 }
@@ -140,6 +158,8 @@ img {
 /*prices*/
 
 .prices {
+  padding-top: 130px;
+  padding-bottom: 130px;
   background-color: var(--background-dark--);
 }
 .prices-subtitle {
@@ -160,6 +180,10 @@ img {
   letter-spacing: 0.02em;
 }
 /*features*/
+.features {
+  padding-top: 143px;
+  padding-bottom: 137px;
+}
 .features-item {
   color: var(--secondary-title-color--);
 }
@@ -185,6 +209,10 @@ img {
   color: var(--third-text-color--);
 }
 /*masters*/
+.masters {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
 .masters-subtitle {
   color: var(--secondary-title-color--);
 }
@@ -206,12 +234,17 @@ img {
   letter-spacing: 0.02em;
 }
 /*portfolio*/
-
+.portfolio {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
 .portfolio-subtitle {
   color: var(--secondary-title-color--);
 }
 /*contacts*/
 .contacts {
+  padding-top: 130px;
+  padding-bottom: 130px;
   background-color: var(--background-dark--);
 }
 .contacts-title,
@@ -245,6 +278,10 @@ img {
   letter-spacing: 0.02em;
 }
 /*footer*/
+.footer {
+  padding-top: 57px;
+  padding-bottom: 55px;
+}
 .footer-social-item {
   color: var(--secondary-title-color--);
 }
